@@ -14,6 +14,7 @@
 		C06034B12A204D710034AE08 /* aplicativolearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06034B02A204D710034AE08 /* aplicativolearTests.swift */; };
 		C06034BB2A204D710034AE08 /* aplicativolearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06034BA2A204D710034AE08 /* aplicativolearUITests.swift */; };
 		C06034BD2A204D710034AE08 /* aplicativolearUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06034BC2A204D710034AE08 /* aplicativolearUITestsLaunchTests.swift */; };
+		C06034CE2A23E3830034AE08 /* LoginViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06034CD2A23E3820034AE08 /* LoginViewMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C06034B62A204D710034AE08 /* aplicativolearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aplicativolearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06034BA2A204D710034AE08 /* aplicativolearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aplicativolearUITests.swift; sourceTree = "<group>"; };
 		C06034BC2A204D710034AE08 /* aplicativolearUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aplicativolearUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C06034CD2A23E3820034AE08 /* LoginViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,11 @@
 		C060349E2A204D6F0034AE08 /* aplicativolear */ = {
 			isa = PBXGroup;
 			children = (
-				C060349F2A204D6F0034AE08 /* aplicativolearApp.swift */,
 				C06034A12A204D6F0034AE08 /* ContentView.swift */,
+				C06034CB2A204E600034AE08 /* View */,
+				C060349F2A204D6F0034AE08 /* aplicativolearApp.swift */,
+				C06034CC2A204E7B0034AE08 /* ViewMod */,
+				C06034C92A204E510034AE08 /* Model */,
 				C06034A32A204D710034AE08 /* Assets.xcassets */,
 				C06034A52A204D710034AE08 /* Preview Content */,
 			);
@@ -125,6 +130,28 @@
 				C06034BC2A204D710034AE08 /* aplicativolearUITestsLaunchTests.swift */,
 			);
 			path = aplicativolearUITests;
+			sourceTree = "<group>";
+		};
+		C06034C92A204E510034AE08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C06034CB2A204E600034AE08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C06034CC2A204E7B0034AE08 /* ViewMod */ = {
+			isa = PBXGroup;
+			children = (
+				C06034CD2A23E3820034AE08 /* LoginViewMode.swift */,
+			);
+			path = ViewMod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +286,7 @@
 			files = (
 				C06034A22A204D6F0034AE08 /* ContentView.swift in Sources */,
 				C06034A02A204D6F0034AE08 /* aplicativolearApp.swift in Sources */,
+				C06034CE2A23E3830034AE08 /* LoginViewMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
